@@ -1,0 +1,43 @@
+.FooterBar{
+    background: $footBG;
+    height: .9rem;
+    display: flex;
+    box-sizing: border-box;
+    border-top: 1px solid #c5c5c5;
+    z-index: 1;
+    position: relative;
+    &>a{
+        flex-grow: 1;
+        text-align: center;
+        color: $footFont;
+        padding-top: .15em;
+        &>p{
+            font-size: .25rem;
+        }
+        .iconfont{
+            font-size: .4rem;
+        }
+    }
+    .active{
+        .iconfont{
+            color: $footActive;
+        }
+        &>p{
+            color: $footActive;
+        }
+        span.icon-shouye::before{
+            content: "\e602";
+        }
+        span.icon-qianbao::before{
+            content: "\e62c";
+        }
+        span.icon-liwulipinjiangpin-xianxing::before{
+            content: "\e7b7";
+        }
+        span.icon-wode::before{
+            content: "\e603";
+        }
+        
+    }
+}
+

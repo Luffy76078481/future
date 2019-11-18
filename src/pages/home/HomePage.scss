@@ -1,0 +1,110 @@
+.HomePage {
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    touch-action: none;
+    .publicTxtStyle {
+        font-size: .24rem;
+        border: 1px solid #FFF;
+        color: #fff;
+        border-radius: .1rem;
+        line-height: .3rem;
+        padding: 0 .1rem;
+    }
+    .publicTxtStyle2{
+        font-size: .24rem;
+        border: 1px solid #FFF;
+        border-radius: .1rem;
+        line-height: .3rem;
+        padding: 0 .1rem;
+    }
+
+    //com
+    .handle {
+        margin: 0 .25rem;
+        font-size: .25rem;
+        overflow: hidden;
+        background: #FFF;
+        height: 1.6rem;
+        border-radius: 8px;
+        box-shadow:0.07rem 0.07rem 0.046rem #b3b3b3;
+        .title {
+            padding: 0 .4rem;
+            background: $testBG;
+            color: #FFF;
+            height: .5rem;
+            line-height: .5rem;
+
+            .welcomeTxt {
+                float: left;
+            }
+
+            .personalCenter {
+                float: right;
+                display: -webkit-flex; /* Safari */
+                display: flex;
+                align-items: center;
+                height: .5rem;
+                line-height: .4rem;
+            }
+        }
+
+        .content {
+            display: -webkit-flex; /* Safari */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            height: 1.04rem;
+            font-size: .24rem;
+
+            .left {
+                flex-grow: 1;
+                position: relative;
+                .leftbar{
+                    color: #000;
+                }
+
+                .balance {
+                    margin-bottom: .05rem;
+                }
+
+                .login {
+                    span {
+                        display: inline-block;
+                        border-color: #896A4B;
+                        padding: 0 .2rem;
+                        //font-size: .24rem;
+                    }
+                }
+
+                &:after {
+                    content: "";
+                    height: 80%;
+                    position: absolute;
+                    top: 10%;
+                    right: 0;
+                    border-left: .025rem dashed #999;
+                }
+            }
+
+            .right {
+                display: -webkit-flex; /* Safari */
+                display: flex;
+                flex-grow: 2;
+                .iconfont{
+                    font-size: 0.4rem;
+                }
+                a {
+                    flex-grow: 1;
+                    align-items: center;
+                    p{
+                        padding-top: .03rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,146 @@
+.MyPage{
+    flex-direction:column;
+    height: 100%;
+    display: flex;
+    .content-container{
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 2rem);
+        overflow: auto;
+        .second__25kyk {
+            width: 100%;
+            height: 100%;
+            -ms-flex: 1 1;
+            flex: 1 1;
+            position: relative;
+            margin-bottom: -.026667rem;
+            >a{
+                display: block;
+            }
+            .myAcount{
+                display: block;
+                margin-top: -.75rem;
+                .listItem{
+                    border-top-left-radius: 18px;
+                    border-top-right-radius: 18px;
+                }
+            }
+            .my-index__3XjEX {
+                height: 2.5rem;
+                background: $boxBG;
+                background-size: 100% 100%;
+                width: 100%;
+                display: -ms-flexbox;
+                display: flex;
+                .my-info-wrap__1dve9 {
+                    width: 25%;
+                    img {
+                        height: 1.386667rem;
+                        margin: .1rem 0 0 .4rem;
+                    }
+                   
+                }
+                .my-info-wrap1__3Ty9P {
+                    width: 75%;
+                    color: #fff;
+                    position: relative;
+                    .user__1iZuy {
+                        display: flex;
+                        align-items: center;
+                        margin-top: .4rem;
+                    }
+                    .user__1iZuy1 {
+                        display: flex;
+                        align-items: center;
+                        margin-top: .1rem;
+                        font-size: .32rem;
+                    }
+                    .more__1iKno{
+                        position: absolute;
+                        width: 1.786667rem;
+                        height: .746667rem;
+                        line-height: .746667rem;
+                        background: $messageBG;
+                        border-radius: .133333rem;
+                        right: .586667rem;
+                        top: .4rem;
+                        font-size: .32rem;
+                        color: $message;
+                        text-align: center;
+                        &>a{
+                            color: $message;
+                        }
+                    }
+                }
+            }
+           
+            .spclistItem{
+                margin-bottom: .4rem;
+                border:none!important;
+            }
+
+            .listItem{
+                height: .8rem;
+                padding-left: .4rem;
+                background: #fff!important;
+                min-height: .8rem;
+                .am-list-content{
+                    color: $normalFont!important;
+                }
+            }
+            .palace__1MM09{
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                background: #fff;
+                display: flex;
+                padding:.3rem 0;
+                margin-bottom: .3rem;
+                .grid__3Xa5w{
+                    flex-grow: 1;
+                    text-align: center;
+                    &>p{
+                        font-size: .25rem;
+                    font-size: .27rem;
+                    color: $normalFont;
+                    }
+                    &>span{
+                        font-size: .5rem;
+                    }
+                }
+            }
+            .listIcon{
+                font-size: .4rem;
+                margin-right: .3rem;
+            }
+
+            .listSpan{
+                font-size: .3rem;
+            }
+            .exit__VoeN{
+                margin-top: .4rem;
+                width: 100%;
+                line-height: .8rem;
+                background: #fff;
+                font-size: .38rem;
+                color: #8a8a8a;
+                text-align: center;
+            }
+            
+        }
+        
+    }
+    // ANTD改自适应
+    .am-list-line{
+        padding-right: .3rem;
+        border-bottom: 1px solid rgba(200,200,205,.2);
+        .am-list-content{
+            padding-top: .12rem;
+            padding-bottom: .12rem;
+            font-size: .26rem;
+        }
+        .am-list-extra{
+            font-size: .3rem;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+
+/*
+    多页面公用样式
+*/
+
+.FadePage{ // 漂浮页最外层容器
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.btn { // 按钮（取款，注册，存款...）
+    height: .75rem;
+    font-size: .25rem;
+    font-weight: 800;
+    color: #fff;
+    background-color: $boxBG;
+    margin: .1rem auto;
+    width: 80%;
+    text-align: center;
+    line-height: .75rem;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: .2rem;
+    cursor: pointer;
+}
+.icon{ // 图标
+    font-size:.35rem;
+    &.icon-hongbao{ color: #ff0000}
+    &.icon-zhuanpan{color: #277327;}
+    &.icon-icon_chongzhi{color: #d36bc2;}
+    &.icon-zhuanzhangjilu{color: #70db2a;}
+    &.icon-touzhujilu1{color: #ff6837;}
+    &.icon-youhuijilu{color: #0ba2d4;}
+    &.icon-md-guangbo{color: #d36bc2;}
+    &.icon-yinhangka{color: #70db2a;}
+    &.icon-zhanghumingxi{color: #f10547;}
+    &.icon-liwu{color: #ff6837;}
+    &.icon-gerenbaobiao{color: #006837;}
+    &.icon-anquanzhongxin{color: #0ba2d4;}
+    &.icon-guanyuwomen{color: #2c368d;}
+    &.icon-wodexiaoxi{color: #01b0e8;}
+    &.icon-lianxiwomen{color: #00649e;}
+    &.icon-cunkuan{color: #16b2fe;}
+    &.icon-youhui{color: #f10547;}
+    &.icon-huodong{color:#8324ff;}
+    &.icon-liwulipinjiangpin{color: #FF4E6A;}
+    &.icon-qukuan{color: #FE8A1E;}
+    &.icon-yonghu{color: #d36bc2;}
+    &.icon-mima54{color: #70db2a;}
+    &.icon-yanzhengmamima{color: #f10547;}
+    &.icon-youxiang{color: #ff6837;}
+    &.icon-qq1{color: #006837;}
+    &.icon-shouji1{color: #0ba2d4;}
+    &.icon-qukuanmima{color: #2c368d;}
+    &.icon-xiazai{color: #FE8A1E;} 
+}
+// ________________________________________ Antd ________________________________________
+
+.am-toast{ // Toast短消息提示框
+    font-size: .3rem;
+    .am-toast-notice-content>.am-toast-text{
+        padding: .3rem;
+        .am-icon-loading,.am-icon-success,.am-icon-fail{
+            width: .4rem;
+            height: .4rem;
+        }
+    }
+}
+.am-list-item .am-list-line .am-list-arrow{ // 箭头（我，交易记录，活动...）
+    width: .3rem ;
+    height: .3rem ;
+    margin-left: .2rem ;
+}
